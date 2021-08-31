@@ -1,0 +1,64 @@
+.header {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.header .logo {
+  display: block;
+  height: 90px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.header .menu {
+  margin-top: 40px;
+}
+
+.header .menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header .menu__container__element {
+  transition: 0.5s all;
+}
+
+.header .menu__container__element:hover {
+  transform: scale(1.3);
+}
+
+.header .menu__container__element a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.promo {
+  padding-top: 80px;
+  margin-top: 10px;
+  height: 500px;
+  background: #f15a28;
+}
+
+.promo .carousel__main__slide {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: Montserrat,sans-serif;
+}
